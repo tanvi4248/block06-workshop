@@ -5,39 +5,45 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Grocery Website</title>
     <link rel="stylesheet" type="text/css" href="index.css">
+    <style>
+        .subtitle {
+            margin: 0 0 10px;
+            text-transform: capitalize;
+         }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Grocery List</h1>
+        <h1 style="color: red;">Grocery List</h1>
     </header>
     <article class="groceries">
         <article class="pantry">
             <h2 class="grocery-title">pantry items</h2>
-            <section class="pantry-item-01">
+            <section class="pantry-item-01 bg">
                 <h3 class="subtitle">canned</h3>
-                <ul>
+                <ol>
                     <li>coorn</li>
                     <li>tuna</li>
                     <li>green beans</li>
                     <li>beans</li>
-                </ul>
+                </ol>
             </section>
-            <section class="pantry-item-02">
+            <section class="pantry-item-02 bg">
                 <h3 class="subtitle">dry foods</h3>
-                <ul>
+                <ol>
                     <li>rice</li>
                     <li>lentils</li>
                     <li>oats</li>
                     <li>pancake mix</li>
-                </ul>
+                </ol>
             </section>
-            <section>
-                <img src="https://familystylefood.com/wp-content/uploads/2019/03/pantry-essentials-familystylefood.jpg" alt="pantry-items">
+            <section class="image">
+                <img src="https://familystylefood.com/wp-content/uploads/2019/03/pantry-essentials-familystylefood.jpg" alt="pantry-items" style="height: 37vh; width: 13vw;">
             </section>
         </article>
         <article class="freezer">
             <h2 class="grocery-title">freezer items</h2>
-            <section class="freezer-item-01">
+            <section class="freezer-item-01 bg">
                 <h3 class="subtitle">veggies</h3>
                 <ul>
                     <li>carrots</li>
@@ -46,7 +52,7 @@
                     <li>chilli</li>
                 </ul>
             </section>
-            <section class="freezer-item-02">
+            <section class="freezer-item-02 bg">
                 <h3 class="subtitle">snacks</h3>
                 <ul>
                     <li>nuggets</li>
@@ -55,8 +61,8 @@
                     <li>burger</li>
                 </ul>
             </section>
-            <section>
-                <img src="https://d2hmd40x45xr10.cloudfront.net/wp-content/uploads/2022/02/TB-SPACES-0122-0008-scaled.jpg" alt="pantry-items">
+            <section class="image">
+                <img src="https://d2hmd40x45xr10.cloudfront.net/wp-content/uploads/2022/02/TB-SPACES-0122-0008-scaled.jpg" alt="pantry-items" style="height: 37vh; width: 13vw;">
             </section>
         </article>
     </article>
