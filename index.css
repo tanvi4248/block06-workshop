@@ -5,10 +5,14 @@ body{
 .grocery-title {
     background-color: bisque;
     text-transform: uppercase;
+    margin: 0 0 20px;
 }
-.pantry section,
-.freezer section {
+.pantry {
+    margin: 0 0 30px;
+}
+.pantry section, .freezer section {
     display: inline-block;
+    vertical-align: top;
     padding: 10px;
 }
 .bg {
@@ -18,7 +22,7 @@ ul {
     padding: 0 0 0 15px;
     margin: 0 0 10px;
 }
-.pantry section.image {
+section.image {
     padding: 0 0 0 15px;
 }
 img {
