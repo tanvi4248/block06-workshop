@@ -1,0 +1,29 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.grocery-title {
+    background-color: bisque;
+    text-transform: uppercase;
+}
+.pantry section,
+.freezer section {
+    display: inline-block;
+    padding: 10px;
+}
+.bg {
+    background-color: gainsboro;
+}
+ul {
+    padding: 0 0 0 15px;
+    margin: 0 0 10px;
+}
+.pantry section.image {
+    padding: 0 0 0 15px;
+}
+img {
+    height: 36vh;
+    width: 11vw;
+}
+section.freezer-item-02 ul li {
+    list-style: circle;
+}
