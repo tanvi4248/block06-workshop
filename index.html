@@ -11,15 +11,22 @@
             margin: 0 0 10px;
             text-transform: capitalize;
          }
+         nav{
+            margin: 0 0 30px;
+         }
     </style>
 </head>
 <body>
     <header>
         <!-- Inline css here -->
         <h1 style="color: red;">Grocery List</h1>
+        <nav>
+            <a href="#pantry">Pantry</a>
+            <a href="#freezer">Freezer</a>
+        </nav>
     </header>
     <article class="groceries">
-        <article class="pantry">
+        <article class="pantry" id="pantry">
             <h2 class="grocery-title">pantry items</h2>
             <section class="pantry-item-01 bg">
                 <h3 class="subtitle">canned</h3>
@@ -43,7 +50,7 @@
                 <img src="https://familystylefood.com/wp-content/uploads/2019/03/pantry-essentials-familystylefood.jpg" alt="pantry-items" style="height: 118px; width: 165px;">
             </section>
         </article>
-        <article class="freezer">
+        <article class="freezer" id="freezer">
             <h2 class="grocery-title">freezer items</h2>
             <section class="freezer-item-01 bg">
                 <h3 class="subtitle">veggies</h3>
